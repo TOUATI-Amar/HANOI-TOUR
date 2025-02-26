@@ -12,8 +12,8 @@ return pow(2,Number_of_disques)-1; }   /*the minimal number of the deplacement t
                                         (la source : Le chercheur et le grand mathematicien Benoit Rittaud de l'université Sorbonne à Paris)*/
 
 int main(){
-    int N,n;
+    int N;
     printf("please give me the number of the disques in your tour of Hanoi : ");    
     scanf("%d",&N);
-    n=printf("the minimum number of deplacement necessary to solve the Honai tour is %d",Hanoi_tour(N,"Right","left","middle"));
+    printf("the minimum number of deplacement necessary to solve the Honai tour is %d",Hanoi_tour(N,"Right","left","middle"));
 }
