@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int Hanoi_tour(int Number_of_disques,char start[20], char end[20],char intermediaire[20]){
+int Hanoi_tour(int Number_of_disques,char start[6], char end[6],char intermediaire[6]){
     if (Number_of_disques)
     {
     Hanoi_tour(Number_of_disques-1, start,intermediaire,end);
